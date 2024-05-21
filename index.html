@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công ti TNHH Phước Tá</title>
+    <link rel="icon" href="./src/images/header_logo.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container header_wrapper">
+            <a href="/" class="header_logo">
+                <img src="./src/images/logo.jpg" alt="Logo Image">
+            </a>
+            <span class="icon_menu"><i class="fa-solid fa-bars"></i></span>
+            <ul class="header_menu">
+                <li><a href="/" class="active">Trang chủ </a></li>
+                <li><a href="start">Quy trình</a></li>
+                <li>
+                    <a href="service">Dịch vụ vận chuyển</a>
+                    <ul class="sub_menu">
+                        <li><a href="transportRegional">Vận chuyển từ ga đến ga</a></li>
+                        <li><a href="#">Vận chuyển từ kho đến kho</a></li>
+                        <li><a href="#">Vận chuyển hàng bắc nam</a></li>
+                        <li><a href="#">Vận chuyển hàng trung nam</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="transport">Bảng Giá</a>
+                </li>
+                <li><a href="blog">Tin tức</a></li>
+                <li><a href="contact">Liên hệ</a></li>
+                <span class="icon_close"><i class="fa-solid fa-xmark"></i></span>
+            </ul>
+        </div>
+    </header>
+    <div id="root"></div>
+    <footer>
+        <div class="container footer_wraper">
+            <div class="footer_item">
+                <a href="/" class="header_logo">
+                    <img src="./src/images/logo.jpg" alt="">
+                </a>
+                <div class="footer_social">
+                    <span>
+                        <iconify-icon icon="logos:facebook"></iconify-icon>
+                        Facebook
+                    </span>
+                    <span>
+                        <iconify-icon icon="logos:messenger"></iconify-icon>
+                        Messenger
+                    </span>
+                    <span>
+                        <iconify-icon icon="logos:telegram"></iconify-icon>
+                        Telegram
+                    </span>
+                    <span>
+                        <iconify-icon icon="skill-icons:twitter"></iconify-icon>
+                        Twitter
+                    </span>
+                </div>
+            </div>
+            <div class="footer_item">
+                <h3>Danh sách menu</h3>
+                <ul>
+                    <li><a href="#">Trang chủ </a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Dịch vụ vận chuyển</a></li>
+                    <li><a href="#">Tuyến vận chuyển</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h3>Phòng kinh doanh</h3>
+                <ul>
+                    <li><a href="#">0934 055 986 ( Ms. Thúy)</a></li>
+                    <li><a href="#">0937 067 986 ( Ms. Loan)</a></li>
+                    <li><a href="#">0908 473 406 ( Ms. Toàn)</a></li>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h3>Liên hệ</h3>
+                <p>Nếu bạn có thắc mắc? Gọi cho chúng tôi <br /><b>0937 067 986</b></p>
+                <div><i class="fa-solid fa-envelope"></i>canhtoan.work000@gmail.com</div>
+                <div><i class="fa-solid fa-map-location"></i>Royal Town, Nguyễn Thị Khắp, Tân Đông Hiệp, Dĩ An, Bình
+                    Dương</div>
+            </div>
+        </div>
+    </footer>
+    <div class="chat">
+        <span class="chat_icon"><i class="fa-solid fa-comment"></i></span>
+        <div class="chat_content">
+            <p>Please fill out the form below and we will get back to you as soon as possible.</p>
+            <form action="" class="chat_form" id="chat_form">
+                <div>
+                    <label for="name">Họ và tên</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" email="email" id="name">
+                </div>
+                <div>
+                    <label for="content">Nội dung</label>
+                    <textarea name="content" id="contnet" cols="30" rows="10"></textarea>
+                </div>
+                <button class="chat_form_button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

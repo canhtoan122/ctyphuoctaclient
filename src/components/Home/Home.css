@@ -1,0 +1,500 @@
+
+.main_banner {
+    position: relative;
+    height: 700px;
+  }
+  
+  .main_banner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .main_banner::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 0;
+  }
+  
+  .main_banner_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 100px 0px;
+    z-index: 5;
+    position: relative;
+    height: 100%;
+  }
+  
+  .main_banner_right {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .main_banner_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: red;
+  }
+  
+  .main_banner_left h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .main_banner_left h2 {
+    font-size: 70px;
+  }
+  
+  .main_banner_left p {
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+  }
+  
+  
+  
+  .main_infor {
+    background-color: var(--cl-yellow);
+    padding: 40px;
+  }
+  
+  .main_infor_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .main_infor_item {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 100px;
+    background: var(--cl-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+  
+  .main_infor_item span:first-child {
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-color: var(--cl-white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main_infor_item span:first-child i {
+    font-size: 24px;
+    color: var(--cl-blue)
+  }
+  
+  .main_infor_item span:last-child {
+    color: var(--cl-white);
+    font-size: 22px;
+  }
+  
+  .main_intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 50px 0px;
+  }
+  
+  .main_intro_left {
+    padding-top: 50px;
+    padding-right: 50px;
+    position: relative;
+  }
+  
+  .main_intro_left>img {
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    animation: effects 2s linear infinite;
+  }
+  
+  @keyframes effects {
+    0% {
+        transform: translateY(-5px);
+    }
+  
+    50% {
+        transform: translateY(0px);
+    }
+  
+    100% {
+        transform: translateY(-5px);
+    }
+  }
+  
+  .main_intro_left span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 160px;
+  }
+  
+  .main_intro_right {
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .main_intro_right h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .main_intro_right h2 {
+    font-size: 45px;
+  }
+  
+  .main_intro_right p {
+    font-size: 18px;
+  }
+  
+  .main_intro_right button {
+    width: 160px;
+    font-size: 16px;
+  }
+  
+  .main_brand {
+    padding: 50px 0px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .main_brand span {
+    padding: 20px;
+    ;
+  }
+  
+  .main_bg {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .service,
+  .question {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .service h3,
+  .question h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .service h2,
+  .question h2 {
+    font-size: 45px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0px auto;
+  }
+  
+  .service>p,
+  .question>p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+  
+  }
+  
+  .home_list {
+    margin-top: 50px;
+  }
+  
+  .home_list_top,
+  .home_list_bottom {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .home_list_item {
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .home_list_item:hover {
+    background-color: var(--cl-yellow);
+    color: var(--cl-white)
+  }
+  
+  .home_list_item:hover p {
+    color: var(--cl-white)
+  }
+  
+  .home_list span {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .home_list_item h4 {
+    font-size: 20px;
+  }
+  
+  .home_list_item p {
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .question_list {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .question_list li {
+    padding: 40px;
+    box-shadow: 0px 0px 10px #ddd;
+    border-radius: 12px;
+    display: flex;
+    gap: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .question_list li:hover {
+    background: var(--cl-yellow);
+    color: var(--cl-white)
+  }
+  
+  .question_list li:hover p {
+    color: var(--cl-white)
+  }
+  
+  .question_list li:hover i {
+    color: var(--cl-white)
+  }
+  
+  .question_list li span i {
+    font-size: 32px;
+    color: var(--cl-yellow);
+    transition: all 0.3s ease;
+  }
+  
+  .question_list li div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .question_list li div h4 {
+    font-size: 18px;
+  }
+  
+  .question_list li div p {
+    transition: all 0.3s ease;
+  }
+  
+  .contact {
+    padding: 50px 0px;
+  }
+  
+  .contact h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact_content {
+    border-radius: 16px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  
+  .contact_phone {
+    position: relative;
+    color: var(--cl-white);
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 40px;
+    align-items: flex-start;
+    gap: 20px;
+    background: linear-gradient(235deg, #FF6666 0%, #F7B255 100%)
+  }
+  
+  .contact_phone:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/bg-overlay-0022.png');
+    background-size: cover;
+  }
+  
+  .contact_phone h4 {
+    font-size: 20p;
+    z-index: 1;
+  }
+  
+  .contact_phone .line {
+    width: 140px;
+    height: 2px;
+    background: var(--cl-white);
+    z-index: 1;
+  }
+  
+  .contact_phone p {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--cl-white);
+    z-index: 1;
+  }
+  .result{
+    margin-top: 40px;
+  }
+  @media screen and (max-width: 1024px) {
+  
+    .main_banner_wrapper,
+    .main_intro,
+    .contact_content,
+    .main_infor_wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
+    .home_list_top,
+    .home_list_bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  
+    .main_banner {
+        height: 100%;
+    }
+  
+    .main_banner_wrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+  
+    }
+  
+    .main_banner_left,
+    .main_banner_right {
+        transform: scale(0.8);
+    }
+  
+    .main_intro_left,
+    .main_intro_right {
+        padding: 50px;
+    }
+  
+    .main_brand {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+    .main_brand span {
+        width: 25%;
+    }
+  
+    .question {
+        padding: 0px 20px;
+    }
+  
+    .contact_phone {
+        padding: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+  
+    .home_list_top,
+    .home_list_bottom,
+    .question_list,
+    .contact_item>div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
+    .main_banner {
+        height: 100%;
+    }
+  
+    .main_banner_wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+  
+    }
+  
+    .main_banner_left,
+    .main_banner_right {
+        transform: scale(0.9);
+    }
+  
+    .main_intro_left,
+    .main_intro_right {
+        padding: 20px;
+    }
+  
+    .main_brand span {
+        width: 50%;
+    }
+  
+    .contact_phone {
+        padding: 20px;
+    }
+  
+    .main_infor {
+        padding: 20px 10px;
+    }
+  
+    .main_intro_left span {
+        width: 100px;
+    }
+  
+    .main_bg {
+        height: 200px;
+    }
+  
+    .main_banner_left h2 {
+        font-size: 50px;
+    }
+  }
