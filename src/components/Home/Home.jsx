@@ -57,7 +57,7 @@ export default function Home() {
         }
     }
     let sendMail = () =>{
-        axios.post("http://localhost:9000/submit", {name, phoneNumber, email, message, type})
+        axios.post("https://ctyphuoctaapi.onrender.com/submit", {name, phoneNumber, email, message, type})
         .then(response => {
             // Handle successful response
             document.getElementById("result").innerHTML = response.data;
