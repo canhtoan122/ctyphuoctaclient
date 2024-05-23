@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios'
 import './Start.css'
 
 export default function Start() {
@@ -30,8 +31,7 @@ export default function Start() {
     let sendMail = () => {
         axios.post("https://ctyphuoctaapi.onrender.com/submit", { name, phoneNumber, email, message, type })
             .then(response => {
-                // Handle successful response
-                document.getElementById("result").innerHTML = response.data;
+                alert(response.data);
             })
             .catch(error => {
                 // Handle error
@@ -101,7 +101,7 @@ export default function Start() {
                                     <label htmlFor="message">Nội dung <span>*</span> </label>
                                     <textarea name="" id="" cols="30" rows="10" onChange={handleChangeMessage}></textarea>
                                 </div>
-                                <button className="button">Hoàn tất</button>
+                                <button className="button" onClick={postForm}>Hoàn tất</button>
                             </form>
                         </div>
                         <span className="main_proceduce_icon"><iconify-icon icon="bytesize:arrow-bottom"></iconify-icon></span>

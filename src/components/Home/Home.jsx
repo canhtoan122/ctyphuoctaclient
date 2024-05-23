@@ -59,8 +59,7 @@ export default function Home() {
     let sendMail = () =>{
         axios.post("https://ctyphuoctaapi.onrender.com/submit", {name, phoneNumber, email, message, type})
         .then(response => {
-            // Handle successful response
-            document.getElementById("result").innerHTML = response.data;
+            alert(response.data);
         })
         .catch(error => {
             // Handle error
@@ -301,7 +300,6 @@ export default function Home() {
                             <textarea name="" id="" cols="30" rows="10" onChange={handleChangeMessage}></textarea>
                         </div>
                         <button className="button" onClick={postForm}>Hoàn tất</button>
-                        <p id='result'></p>
                     </form>
                     <div className="contact_phone">
                         <h4>Liên hệ để chuyển hàng</h4>
