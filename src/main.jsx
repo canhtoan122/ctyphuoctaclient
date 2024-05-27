@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>,
 )
-const chatButton = document.getElementById('chat');
+const chatButton = document.getElementById('chat-button');
 chatButton.addEventListener('click', () => {
   window.open('m.me/333535153171523', '_blank');
 });
