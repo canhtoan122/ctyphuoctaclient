@@ -13,5 +13,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 const chatButton = document.getElementById('chat-button');
 chatButton.addEventListener('click', () => {
-  window.open('m.me/333535153171523', '_blank');
+  window.open('https://m.me/333535153171523', '_blank');
 });
