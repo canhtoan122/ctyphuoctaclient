@@ -250,6 +250,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    position: relative;
+    left: -30px;
 }
 .footer_item p {
     margin-bottom: 10px;
