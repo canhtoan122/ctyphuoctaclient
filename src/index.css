@@ -92,9 +92,16 @@ img {
     cursor: pointer;
 }
 .form_request {
-    padding: 60px 40px;
+    padding: 150px 40px 150px;
 }
-
+.form_request_procedure {
+    text-align: center;
+    padding: 50px 40px;
+}
+.form_request_procedure .chat_icon {
+    position: relative;
+    left: 500px;
+}
 .form_request_item {
     display: flex;
     flex-direction: column;

@@ -69,40 +69,11 @@ export default function Start() {
                         <div className="main_proceduce_item">
                             <h3 className="main_proceduce_item_title">Quy trình 1:</h3>
                             <p className="main_proceduce_item_desc">Điền form thông tin về nơi giao nhận và thông tin hành hoá</p>
-                            <form action="" className="form_request">
-                                <div className="form_request_item">
-                                    <label htmlFor="firstName">Tên khách hàng và số điện thoại <span>*</span> </label>
-                                    <div className="form_request_item_name">
-                                        <span>
-                                            <input type="text" name="name" id="name" onChange={handleChangeName}/>
-                                            <label htmlFor="name">Họ và tên</label>
-                                        </span>
-                                        <span>
-                                            <input type="text" name="phoneNumber" id="phoneNumber" onChange={handleChangePhoneNumber}/>
-                                            <label htmlFor="phoneNumber">Số điện thoại</label>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div className="form_request_item">
-                                    <label htmlFor="type">Dịch vụ vận chuyển<span>*</span> </label>
-                                    <select id="type" name="type" onChange={handleChangeType}>
-                                        <option value="default">--------------</option>
-                                        <option value="Kho tới kho">Kho tới kho</option>
-                                        <option value="Ga tới ga">Ga tới ga</option>
-                                        <option value="Kho tới ga">Kho tới ga</option>
-                                        <option value="Ga tới kho">Ga tới kho</option>
-                                    </select>
-                                </div>
-                                <div className="form_request_item">
-                                    <label htmlFor="email">Email<span>*</span> </label>
-                                    <input type="email" name="email" id="email" onChange={handleChangeEmail}/>
-                                </div>
-                                <div className="form_request_item">
-                                    <label htmlFor="message">Nội dung <span>*</span> </label>
-                                    <textarea name="" id="" cols="30" rows="10" onChange={handleChangeMessage}></textarea>
-                                </div>
-                                <button className="button" onClick={postForm}>Hoàn tất</button>
-                            </form>
+                            <div className='form_request_procedure'>
+                                <h4>
+                                    Vui lòng liên hệ qua Hotline hoặc <span className="chat_icon"><i className="fa-solid fa-comment"></i></span>để tư vấn miễn phí.
+                                </h4>
+                            </div>
                         </div>
                         <span className="main_proceduce_icon"><iconify-icon icon="bytesize:arrow-bottom"></iconify-icon></span>
                         <div className="main_proceduce_item">

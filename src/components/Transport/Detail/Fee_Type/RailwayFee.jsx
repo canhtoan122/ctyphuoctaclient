@@ -4,11 +4,7 @@ export default function RailwayFee() {
   const [value, setValue] = useState();
   const caculateMoney = () => {
     let result = 0;
-    if (value > 2000) {
-      result = value * 900;
-    } else {
-      result = value * 1000;
-    }
+    result = value * 500000;
     if (isNaN(result)) {
       document.getElementById('railwayResult').innerText = "Xin hãy nhập vào số tiền tương ứng";
     } else {
@@ -28,11 +24,14 @@ export default function RailwayFee() {
           placeholder="Khối lượng"
           onChange={handleInputChange}
         />
-        <i>kg</i>
+        <i>m3</i>
         <br />
         <button onClick={caculateMoney}>Thành Tiền</button>
         <p id="railwayResult"> Số tiền</p>
       </div>
+      <p>
+          <b>Ghi chú:</b> Công thức tính m3: Chiều dài * chiều rộng * chiều cao
+      </p>
       <table className="transport_detail_table">
         <thead>
           <tr>
@@ -46,7 +45,7 @@ export default function RailwayFee() {
             <th>Ga Sóng Thần</th>
             <th>Ga Giáp Bát</th>
             <th>
-              Ít hơn 2 tấn , giá cước 1000đ/kg, trên 2 tấn giá cước 900đ/kg
+              500,000đ/m3
             </th>
           </tr>
         </tbody>

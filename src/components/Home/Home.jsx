@@ -267,7 +267,13 @@ export default function Home() {
             <div className="contact">
                 <h3>Gửi Yêu Cầu Giá Cước Vận Chuyển</h3>
                 <div className="contact_content">
-                    <form action="" className="form_request">
+                    <div className='form_request'>
+                        <h4>
+                            Vui lòng liên hệ qua Hotline hoặc <span className="chat_icon"><i className="fa-solid fa-comment"></i></span>
+                            để tư vấn miễn phí.
+                        </h4>
+                    </div>
+                    {/* <form action="" className="form_request">
                         <div className="form_request_item">
                             <label htmlFor="firstName">Tên khách hàng và số điện thoại <span>*</span> </label>
                             <div className="form_request_item_name">
@@ -300,7 +306,7 @@ export default function Home() {
                             <textarea name="" id="" cols="30" rows="10" onChange={handleChangeMessage}></textarea>
                         </div>
                         <button className="button" onClick={postForm}>Hoàn tất</button>
-                    </form>
+                    </form> */}
                     <div className="contact_phone">
                         <h4>Liên hệ để chuyển hàng</h4>
                         <span className="line"></span>
