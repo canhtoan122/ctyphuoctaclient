@@ -32,10 +32,7 @@ export default function Home() {
         if(isMobileDevice()){
             window.location.href = "tel:0908473406";
         } else {
-            const chatButton = document.getElementById('chat-button');
-            chatButton.addEventListener('click', () => {
             window.open('https://m.me/333535153171523', '_blank');
-            });
         }
     }
     let postForm = (e) =>{
