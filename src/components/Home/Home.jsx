@@ -30,21 +30,12 @@ export default function Home() {
     let phoneCall = (e) =>{
         e.preventDefault();
         if(isMobileDevice()){
-            // Redirect to tel link for mobile devices
-            window.location.href = "tel:0989246579";
+            window.location.href = "tel:0908473406";
         } else {
-            // Prompt for phone number for non-mobile devices
-            let name = prompt("Please enter your name:");
-            let phoneNumber = prompt("Please enter your phone number:");
-            let email = prompt("Please enter your phone email:");
-            let message = prompt("Please enter your phone message:");
-            let type = prompt("Please enter your type:");
-            setName(name);
-            setPhoneNumber(phoneNumber);
-            setEmail(email);
-            setMessage(message);
-            setType(type);
-            sendMail();
+            const chatButton = document.getElementById('chat-button');
+            chatButton.addEventListener('click', () => {
+            window.open('https://m.me/333535153171523', '_blank');
+            });
         }
     }
     let postForm = (e) =>{
@@ -101,7 +92,7 @@ export default function Home() {
                     <span>
                         <i className="fa-solid fa-phone-volume"></i>
                     </span>
-                    <span>(0937) 067 986</span>
+                    <span>(0908) 473 406</span>
                 </div>
                 <div className="main_infor_item">
                    <span><i className="fa-solid fa-clock"></i></span>
@@ -310,7 +301,7 @@ export default function Home() {
                     <div className="contact_phone">
                         <h4>Liên hệ để chuyển hàng</h4>
                         <span className="line"></span>
-                        <p>Hotline: <br/> 0937 067 986</p>
+                        <p>Hotline: <br/> 0908 473 406</p>
                     </div>
                 </div>
             </div>
