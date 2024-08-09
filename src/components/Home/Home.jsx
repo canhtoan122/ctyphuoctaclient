@@ -77,8 +77,9 @@ export default function Home() {
                 <div className="main_banner_left">
                     <h3>Vận tải Phước Tá</h3>
                     <h2>NÂNG NIU TRÊN TỪNG CÂY SỐ</h2>
-                    <p>Phước Tá cung cấp các dịch vụ vận chuyển hàng hóa chất lượng cao, từ các dịch vụ chuyển hàng tiêu chuẩn cho đến hàng siêu
-                        trường siêu trọng.</p>
+                    <p>Phước Tá cung cấp các dịch vụ vận chuyển hàng hóa bằng đường sắt và có hỗ trợ vận chuyển ra ga như là vận chuyển dời nhà, 
+                        vận chuyển hàng hóa các công ti lớn nhỏ và các dịch vụ khác liên quan tới đường sắt.
+                    </p>
                     <a href="start" className="button">Quy trình</a>
                 </div>
             </div>
@@ -112,15 +113,15 @@ export default function Home() {
                 <div className="main_intro_right">
                     <h3>Tại sao chọn chúng tôi</h3>
                     <h2>GIỚI THIỆU VẬN TẢI PHƯỚC TÁ</h2>
-                    <p>Công Ty TNHH Dịch Vụ Vận Tải Phước Tá được thành lập vào năm 2012, với kinh nghiệm 10 năm hoạt động trong ngành vận tải
-                        chúng tôi luôn đảm bảo hàng hóa được vận chuyển an toàn và đúng thời gian cho quý khách hàng. <br/><br />
-                        
-                        Vận Tải Phước Tá chuyên vận chuyển hàng hóa từ Bắc vào Nam và các tỉnh nhỏ lẻ, với đội ngũ lái xe có nhiều năm kinh nghiệm
-                        chạy xuyên suốt trên các tuyến đường trên lãnh thổ Việt Nam.<br/><br/>
-                        
-                        Hiện tại, vận tải Phước Tá có nhiều dịch vụ trong ngành vận tải để phục vụ khách hàng, Trong đó, dịch vụ vận chuyển hàng
-                        hóa được ưu tiên và chú trọng nhất với mục tiêu đáp ứng nhanh nhất những yêu cầu về vận chuyển hàng hóa. Nếu quý khách
-                        có nhu cầu vận chuyển hàng hóa đến bất kỳ nơi nào, chúng tôi đều có khả năng đáp ứng.</p>
+                    <p>Công Ty TNHH Dịch Vụ Vận Tải Phước Tá được thành lập vào năm 2012, với hơn kinh nghiệm 10 năm hoạt động trong ngành vận tải
+                        đường sắt chúng tôi luôn đảm bảo hàng hóa được vận chuyển an toàn và đúng thời gian cho quý khách hàng. <br></br>
+                        Bên em chuyên vận chuyển tất cả các loại hàng hóa từ vận chuyển nhà, hàng xuất nhập khẩu, hàng nội địa đến cung cấp 
+                        dịch vụ đường sắt, tàu hỏa. Ngoài ra bên em còn hỗ trợ vận chuyển xe tải đến ga tàu. <br></br>
+                        Hiện tại thì vận tải Phước Tá chú trọng nhiều nhất vào các công ti miền Bắc và miền Nam. 
+                        Trong đó, dịch vụ vận chuyển hàng hóa được ưu tiên và chú trọng nhất với mục tiêu 
+                        đáp ứng nhanh nhất những yêu cầu về vận chuyển hàng hóa. Nếu quý khách có nhu cầu vận 
+                        chuyển hàng hóa đến bất kỳ nơi nào, chúng tôi đều có khả năng đáp ứng.<br></br>
+                    </p>
                     <button className="button" onClick={phoneCall}>Gọi Ngay</button>
                 </div>
             </div>

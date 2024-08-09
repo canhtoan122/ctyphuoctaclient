@@ -74,29 +74,9 @@ export default function Service() {
                     <div className="service_list_item_image">
                         <img src={logo} alt="" />
                     </div>
-                    <a href="serviceDetail">Vận Chuyển Hàng Từ kho Hà Nội tới các tỉnh thành miền Bắc</a>
-                    <p>
-                        Đây là tuyến dịch vụ chính của bên em a vận chuyển từ TP.HCM ra Hà Nội. Vận tải Phước Tá vận chuyển hàng hóa đi Hà Nội 
-                        có dịch vụ tốt nhất và giá cả cạnh tranh nhất so với các đơn vị vận tải khác.
-                    </p>
-                </li>
-                <li className="service_list_item">
-                    <div className="service_list_item_image">
-                        <img src={logo} alt="" />
-                    </div>
                     <a href="serviceDetail">Vận Chuyển Hàng miền Trung</a>
                     <p>
                         Chúng tôi chuyên vận chuyển hàng hóa hai chiều bằng xe tải từ các tỉnh miền nam đi miền trung và ngược lại.
-                    </p>
-                </li>
-                <li className="service_list_item">
-                    <div className="service_list_item_image">
-                        <img src={logo} alt="" />
-                    </div>
-                    <a href="serviceDetail">Vận Chuyển Hàng Từ kho Sài Gòn tới các tỉnh thành miền nam</a>
-                    <p>
-                        Vận tải Phước Tá với nhiều năm kinh nghiệm trong dịch vụ gửi vận chuyển hàng từ Hà Nội đi TP.HCM bằng xe tải, container,
-                        xe chuyên dụng,...
                     </p>
                 </li>
             </ul>
