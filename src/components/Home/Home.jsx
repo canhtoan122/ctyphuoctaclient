@@ -77,8 +77,8 @@ export default function Home() {
                 <div className="main_banner_left">
                     <h3>Vận tải Phước Tá</h3>
                     <h2>NÂNG NIU TRÊN TỪNG CÂY SỐ</h2>
-                    <p>Phước Tá cung cấp các dịch vụ vận chuyển hàng hóa bằng đường sắt và có hỗ trợ vận chuyển ra ga như là vận chuyển dời nhà, 
-                        vận chuyển hàng hóa các công ti lớn nhỏ và các dịch vụ khác liên quan tới đường sắt.
+                    <p>Giang Toàn cung cấp các dịch vụ vận chuyển hàng hóa bằng đường sắt từ kho đến kho cho các công ty có trụ sở ở Thành Phố Hồ Chí Minh và Hà Nội 
+                        hoặc là các công ty ở Sài Gòn hoặc Hà Nội đang có nhu cầu mở rộng thị trường.
                     </p>
                     <a href="start" className="button">Quy trình</a>
                 </div>
@@ -112,8 +112,8 @@ export default function Home() {
                 </div>
                 <div className="main_intro_right">
                     <h3>Tại sao chọn chúng tôi</h3>
-                    <h2>GIỚI THIỆU VẬN TẢI PHƯỚC TÁ</h2>
-                    <p>Công Ty TNHH Dịch Vụ Vận Tải Phước Tá được thành lập vào năm 2012, với hơn kinh nghiệm 10 năm hoạt động trong ngành vận tải
+                    <h2>GIỚI THIỆU VẬN TẢI GIANG TOÀN</h2>
+                    <p>Công Ty TNHH Dịch Vụ Vận Tải Giang Toàn được thành lập vào năm 2012, với hơn kinh nghiệm 10 năm hoạt động trong ngành vận tải
                         đường sắt chúng tôi luôn đảm bảo hàng hóa được vận chuyển an toàn và đúng thời gian cho quý khách hàng. <br></br>
                         Bên em chuyên vận chuyển tất cả các loại hàng hóa từ vận chuyển nhà, hàng xuất nhập khẩu, hàng nội địa đến cung cấp 
                         dịch vụ đường sắt, tàu hỏa. Ngoài ra bên em còn hỗ trợ vận chuyển xe tải đến ga tàu. <br></br>
