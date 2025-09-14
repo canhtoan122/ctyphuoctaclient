@@ -78,7 +78,7 @@ export default function Home() {
                     <h3>Vận tải Giang Toàn</h3>
                     <h2>NÂNG NIU TRÊN TỪNG CÂY SỐ</h2>
                     <p>Giang Toàn cung cấp các dịch vụ vận chuyển hàng hóa bằng đường sắt từ kho đến kho cho các công ty có trụ sở ở TP.HCM, Hà Nội, Trung Quốc, Mông Cổ, Nga và các nước Trung Á 
-                        hoặc là các công ty ở Sài Gòn, Hà Nội, Trung Quốc, Mông Cổ, Nga theo cont 40' đang có nhu cầu mở rộng thị trường.
+                        hoặc là các công ty ở Sài Gòn, Hà Nội, Trung Quốc, Mông Cổ, Nga theo container 40' đang có nhu cầu mở rộng thị trường.
                     </p>
                     <a href="start" className="button">Quy trình</a>
                 </div>
@@ -121,7 +121,7 @@ export default function Home() {
                         Trong đó, dịch vụ vận chuyển hàng hóa được ưu tiên và chú trọng nhất với mục tiêu 
                         đáp ứng nhanh nhất những yêu cầu về vận chuyển hàng hóa. Nếu quý khách có nhu cầu vận 
                         chuyển hàng hóa đến bất kỳ nơi nào, chúng tôi đều có khả năng đáp ứng.<br></br>
-                        Ngoài ra thì công ty Giang Toàn còn cung cấp dịch vụ xuất nhập khẩu ở các nước như Trung Quốc, Mông Cổ, Nga theo cont 40'.<br></br>
+                        Ngoài ra thì công ty Giang Toàn còn cung cấp dịch vụ xuất nhập khẩu ở các nước như Trung Quốc, Mông Cổ, Nga theo container 40'.<br></br>
                     </p>
                     <button className="button" onClick={phoneCall}>Gọi Ngay</button>
                 </div>
