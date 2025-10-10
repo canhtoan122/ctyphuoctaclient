@@ -32,7 +32,12 @@ export default function Home() {
         if(isMobileDevice()){
             window.location.href = "tel:0908473406";
         } else {
-            window.open('https://m.me/333535153171523', '_blank');
+            const hotline = document.getElementById("hotline");
+            if (hotline) {
+              hotline.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            } else {
+              console.warn('Không tìm thấy phần tử chứa "Hotline"');
+            }
         }
     }
     let postForm = (e) =>{
