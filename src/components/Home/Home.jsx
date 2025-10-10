@@ -305,7 +305,7 @@ export default function Home() {
                     <div className="contact_phone">
                         <h4>Liên hệ để chuyển hàng</h4>
                         <span className="line"></span>
-                        <p>Hotline: <br/> 0908 473 406</p>
+                        <p className="hotline">Hotline: <br/> 0908 473 406</p>
                     </div>
                 </div>
             </div>
