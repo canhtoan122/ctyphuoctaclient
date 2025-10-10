@@ -32,7 +32,7 @@ export default function Home() {
         if(isMobileDevice()){
             window.location.href = "tel:0908473406";
         } else {
-            const hotline = document.getElementById("hotline");
+            const hotline = document.querySelector('.hotline');
             if (hotline) {
               hotline.scrollIntoView({ behavior: 'smooth', block: 'center' });
             } else {
