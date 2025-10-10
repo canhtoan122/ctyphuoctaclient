@@ -13,5 +13,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 const chatButton = document.getElementById('chat-button');
 chatButton.addEventListener('click', () => {
-  window.open('https://m.me/333535153171523', '_blank');
+  const hotline = document.getElementById('hotline');
+  if (hotline) {
+  hotline.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  } else {
+    console.warn('Không tìm thấy phần tử chứa "Hotline"');
+  }
 });
