@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 const chatButton = document.getElementById('chat-button');
 chatButton.addEventListener('click', () => {
-  const hotline = document.getElementById('hotline');
+  const hotline = document.querySelector('.hotline');
   if (hotline) {
   hotline.scrollIntoView({ behavior: 'smooth', block: 'center' });
   } else {
