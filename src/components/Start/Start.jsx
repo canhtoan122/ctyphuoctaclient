@@ -101,6 +101,21 @@ export default function Start() {
                             <p className="main_proceduce_item_desc"> Chung chuyển đường bộ tới kho khách</p>
                         </div>
                     </div>
+                    <div className="contact">
+                <h3>Gửi Yêu Cầu Giá Cước Vận Chuyển</h3>
+                <div className="contact_content">
+                    <div className='form_request'>
+                        <h4>
+                            Vui lòng liên hệ qua Hotline hoặc <span className="chat_icon"><i className="fa-solid fa-comment"></i></span>
+                            để tư vấn miễn phí.
+                        </h4>
+                    </div>
+                    <div className="contact_phone">
+                        <h4>Liên hệ để chuyển hàng</h4>
+                        <span className="line"></span>
+                        <p className="hotline">Hotline: <br/> 0908 473 406</p>
+                    </div>
+                </div>
                 </div>
             </main>
         </div>
