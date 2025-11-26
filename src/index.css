@@ -228,6 +228,7 @@ header {
 footer {
     padding: 50px 0px;
     border-top: 1px solid #eee;
+    margin-top: auto;
 }
 .footer_wraper {
     display: grid;
