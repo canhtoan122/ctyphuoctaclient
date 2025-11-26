@@ -273,6 +273,18 @@ footer {
     gap: 10px;
     margin-bottom: 10px;
 }
+
+.footer_copyright {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    background: #0b1b32; /* tùy chỉnh */
+    margin-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+.footer_copyright {
+    color: #fff;
+}
 .chat {
     position: fixed;
     bottom: 20px;
@@ -390,16 +402,6 @@ footer {
 }
 .blog_list li:nth-child(2n) span{
     order: 1;
-}
-
-.footer_copyright {
-    text-align: center;
-    padding: 15px 0;
-    color: #fff;
-    font-size: 14px;
-    background: #0b1b32; /* tùy chỉnh */
-    margin-top: 20px;
-    border-top: 1px solid rgba(255,255,255,0.15);
 }
 @media screen and (max-width: 1024px) {
     .icon_menu, .icon_close {
