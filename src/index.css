@@ -9,12 +9,16 @@
     --cl-yellow: #f49738;
     --cl-text: #545454;
     --cl-blue: #020710;
+    flex: 1;
 }
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+html, body {
+    height: 100%;
 }
 body {
     background-color: var(--cl-white) ;
@@ -23,7 +27,8 @@ body {
     font-size: var(--fz-normal);
     color: var(--cl-black);
     font-family: 'Raleway', sans-serif;
-    
+    display: flex;
+    flex-direction: column;
 }
 .container {
     max-width: 1180px;
