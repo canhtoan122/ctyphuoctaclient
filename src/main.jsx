@@ -11,6 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>,
 )
+document.getElementById("current-year").textContent = new Date().getFullYear();
 const chatButton = document.getElementById('chat-button');
 chatButton.addEventListener('click', () => {
   const hotline = document.querySelector('.hotline');
