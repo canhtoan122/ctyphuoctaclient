@@ -283,12 +283,10 @@ footer {
     text-align: center;
     padding: 15px 0;
     font-size: 14px;
+    color: #fff;
     background: #0b1b32; /* tùy chỉnh */
     margin-top: 20px;
     border-top: 1px solid rgba(255,255,255,0.15);
-}
-.footer_copyright {
-    color: #fff;
 }
 .chat {
     position: fixed;
