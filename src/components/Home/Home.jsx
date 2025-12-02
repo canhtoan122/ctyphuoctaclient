@@ -99,7 +99,7 @@ export default function Home() {
                 </div>
                 <div className="main_infor_item">
                    <span><i className="fa-solid fa-clock"></i></span>
-                    <span>Đến nơi trong vòng 5 ngày</span>
+                    <span>Đến nơi trong vòng 4 ngày</span>
                 </div>
                 <div className="main_infor_item">
                     <span><i className="fa-solid fa-circle-check"></i></span>
