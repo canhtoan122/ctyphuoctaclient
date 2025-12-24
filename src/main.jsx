@@ -16,7 +16,10 @@ const chatButton = document.getElementById('chat-button');
 chatButton.addEventListener('click', () => {
   const hotline = document.querySelector('.hotline');
   if (hotline) {
-  hotline.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    {/*
+    hotline.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    */}
+    
   } else {
     console.warn('Không tìm thấy phần tử chứa "Hotline"');
   }
