@@ -19,7 +19,7 @@ chatButton.addEventListener('click', () => {
     {/*
     hotline.scrollIntoView({ behavior: 'smooth', block: 'center' });
     */}
-    
+    window.location.href = "https://m.me/333535153171523";
   } else {
     console.warn('Không tìm thấy phần tử chứa "Hotline"');
   }
